@@ -1,0 +1,165 @@
+*
+    margin: 0
+    padding: 0
+
+body
+    background-image: url(../images/tm-catalyst-bg.jpg)
+    background-attachment: fixed
+    block-size: cover
+    font-family: 'Open Sans', sans-serif
+    font-size: 18px
+    font-weight: 300
+    
+
+.grid
+    display: grid
+    grid-template-columns: 5% 45% 45% 5%
+    padding-top: 50px
+ 
+
+.left
+    background-color: rgba(0,0,0,0.7)
+    grid-column-start: 2
+
+.right
+    background-color: rgba(255,255,255,0.7)
+    grid-column-start: 3
+
+.left__header
+    h1    
+        color: white
+        text-align: center
+        padding-top: 300px
+        font-size: 54px
+        text-transform: uppercase
+        font-weight: 500
+.main
+    margin: 57px
+
+.right__main
+    margin-top: 340px
+    font-weight: 300
+    h2
+        text-align: center
+        color: #006699
+        font-size: 34px
+        margin-bottom: 30px
+        font-weight: 300
+    p
+        line-height: 1.8
+.left__main
+    margin-top: 500px
+    color: white
+    h2
+        text-align: center
+        font-weight: 300
+        font-size: 34px
+        margin-bottom: 30px
+    p 
+        line-height: 1.8
+        font-weight: 300
+.button
+    background-color: #cc3467
+    color: white
+    text-align: center
+    padding: 10px 40px
+    font-size: 20px
+    cursor: pointer
+    font-weight: 300
+    border: 0
+    float: right
+    margin-right: 20px
+    transition: background-color 1s ease
+    &:hover
+        background-color: #d65c7f
+.right__gallery
+    margin: 150px 30px
+    img 
+    
+        &:nth-child(1)
+            padding: 5px
+            border-bottom: 15px solid #666
+            border-right: 15px solid #666
+        &:nth-child(2)
+            padding: 5px
+            border-top: 15px solid #cc3467
+            border-right: 15px solid #cc3467
+        &:nth-child(3)
+            padding: 5px
+            border-left: 15px solid #cc3467
+            border-bottom: 15px solid #cc3467
+        &:nth-child(4)
+            padding: 5px
+            border-left: 15px solid #666
+            border-top: 15px solid #666
+.center
+    grid-column: 2/4
+    border-right: rgba(255,255,255,0.7) 100px solid
+    border-left: rgba(0,0,0,0.7) 100px solid
+.center__h2
+ 
+        height: 300px
+        background-color: #cc3467
+        h2
+            font-size: 30px
+            color: white
+            text-align: center
+            padding-top: 20px
+            padding-bottom: 10px
+            font-weight: 300
+.center__paragraphs
+    padding: 0px 60px
+    display: flex
+    margin-bottom: 50px
+    p
+        margin: 0
+        margin: auto
+        font-weight: 300
+        width: 33%
+        background-color: white
+        color: black
+        text-align: justify   
+        padding: 30px
+        line-height: 1.8
+        z-index: 1
+.left__contact
+    margin-top: 300px
+    padding: 0px 45px
+    color: white
+    h2
+        margin-top: 20px
+        margin-bottom: 30px
+        font-weight: 300
+        line-height: 1.4
+        font-size: 34px
+    p
+        padding-bottom: 20px
+        font-size: 18px
+        line-height: 1.8
+.right__contact
+    margin-top: 280px 
+    display: block
+    padding: 55px 45px
+    color: gray
+    input
+        padding: 13px 17px
+        width: 90%
+        margin-bottom: 20px
+        font-size: 19px
+        font-weight: 300
+        color: gray
+
+    textarea
+        font-weight: 300
+        font-size: 19px
+        resize:  vertical
+        width: 90%
+        padding: 13px 17px
+        color: gray
+        margin-bottom: 20px
+footer
+    padding: 30px 0px
+    text-align: center
+    color: white
+    font-weight: 400
+    
